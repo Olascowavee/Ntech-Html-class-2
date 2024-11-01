@@ -41,32 +41,61 @@
     <a href="https://www.google.com" target="_parent">Google</a>
     <a href="mailto:ola@gmail.com">ola</a>
 
-    <form>
-   <input type="text" id="fname" name="fname"><br>
-   <label for="fname">First name:</label><br>
-   <input type="text" id="lname" name="lname">
+    <form> <h3>Kindly fill this form</h3>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" required><br>
+   
    <label for="lname">Last name:</label><br>
+   <input type="text" id="lname" name="lname" required>
+   
 
-   <label for="username">Username:</label><br>
-  <input type="text" id="username" name="username"><br>
+   <p><label for="username">Username:</label><br>
+    <input type="text" id="username" name="username" required></p>
+  
   <label for="pwd">Password:</label><br>
-  <input type="password" id="pwd" name="pwd">
+  <input type="password" id="pwd" name="pwd" required>
 
-   <input type="submit" value="Submit">
+  <br><input type="submit" value="Submit">
 
-    <input type="radio" id="male" name="fav_language" value="Male">
-  <label for="male">Male</label><br>
-  <input type="radio" id="female" name="fav_language" value="Female">
-  <label for="female">Female</label><br>
+   <h3>Gender</h3>
+   <p><input type="radio" id="male" value="Male" required>
+    <label for="male">Male</label><br>
+    <input type="radio" id="female"  value="Female" required>
+    <label for="female">Female</label><br></p>
 
+    <h3>Languages</h3>
   <input type="checkbox" id="English" name="english" value="English">
   <label for="vehicle1">English</label><br>
-  <input type="checkbox" id="Yoruba" name="Yoruba" value="Yoruba"
+  <input type="checkbox" id="Yoruba" name="Yoruba" value="Yoruba">
   <label for="vehicle2">Yoruba</label><br>
   <input type="checkbox" id="Igbo" name="Igbo" value="Igbo">
   <label for="vehicle3"> Igbo</label>
-  <input type="checkbox" id="Hausa" name="Hausa" value="Hausa>
+  <br><input type="checkbox" id="Hausa" name="Hausa" value="Hausa>
   <label for="vehicle3"> Hausa</label>
+
+  <p><label for="courses">Courses available:</label>
+<select name="courses id="courses">
+    <option value="please choose">Select</option>
+    <option value="cyber security">Cyber Security</option>
+  <option value="Full stack Web Dev">Full Stack Web Dev</option>
+  <option value="Data Analysis">Data Analysis</option>
+  <option value="UI/UX Design">UI/UX Design</option>
+  <option value="Machine Learning">Machine Learning</option>
+</select></p>
+
+  <h3>Brief description about yourself</h3>
+  <textarea id="w3review" name="w3review" rows="4" cols="50" required>
+   Not less than 50 words
+    </textarea>
+    <br><input type="submit" value="Submit">
+
+  <p><input type="button" onclick="alert('Welcome to N-Tech!')" value="Click Me!"></p>
+
+
+  <br><label for="gsearch">Search Google:</label>
+  <input type="search" id="gsearch" name="gsearch">
+
+  
     </form>
 
 </body>
