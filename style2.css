@@ -1,0 +1,18 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    background-color: #979090;
+  }
+  
+  li a 
+  {
+    display: block;
+    color: #ffffff;
+    padding: 8px 8px;
+    text-decoration: none;
+    border-style: ridge ;
+
+  }
+
