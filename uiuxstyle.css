@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+}
+
+header {
+    background-color: #F0F0F0;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .profile-container {
+    display: flex;
+    align-items: center;
+}
+
+header .smiley {
+    display: inline-block;
+    opacity: 0.3;
+}
+
+
+header .profile-container img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+header .cart-icon img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.search-bar {
+    margin: 20px;
+}
+
+
+.search-bar input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-right: none;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+}
+.search-bar button:hover {
+    background-color: grey;
+        color: white;
+        cursor: pointer;  
+}
+
+.super-sales {
+    height: 300px;
+}
+
+.offer-images img{
+height: 250px;
+}
+
+nav {
+    display: flex;
+  
+   
+}
+
+nav a {
+    text-decoration: none;
+    width: 45%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aliceblue;
+
+}
+
+nav i {
+    margin-left: 15px;
+}
+
+.super-sales{
+    background-color:rgb(167, 60, 135);
+    display: flex;
+    gap: 50px;
+}
+
+.offer-images {
+    height: 50px;
+    width: 70px;
+    border-radius: 15px;
+}

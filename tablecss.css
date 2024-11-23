@@ -1,0 +1,34 @@
+table
+        {
+width: 100%;
+border: 1px solid black;
+height: 500px;
+
+}
+
+th 
+    {
+    background-color: green; 
+    color: white;
+
+    }
+
+td
+    {
+    border-style: solid;
+    border-right: 1px;
+    text-align: center;
+    border-bottom: none;
+
+}
+
+td:hover {
+        background-color: grey;
+        color: white;
+        cursor: pointer;
+
+}
+
+tr:nth-child(even){
+    background-color: antiquewhite;
+}
